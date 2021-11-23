@@ -1,0 +1,19 @@
+package java_21_10_07;
+
+public class Ex09_Star {
+
+	public static void main(String[] args) {
+		// 별찍기
+		// 중첩 for문을 이용해서 아래와 같이 출력
+		// *
+		// **
+		// ***
+		    
+		for (String i = "*"; i == "*"; i += "*") {
+			for (String j = "*"; j == "*"; j += "*") {
+				System.out.println(i+j);
+			}
+		}
+	}
+
+}

@@ -1,0 +1,19 @@
+package java_21_10_07;
+
+public class Ex08_NestedFor2 {
+
+	public static void main(String[] args) {
+		// 중첩 for문을 활용하여 구구단을 출력해보시오.
+
+		int num = 0;
+		for (int i = 2; i <= 9; i++) {
+			for (int l = 1; l <= 9; l++) {
+				num = i * l;
+
+				System.out.println(i + "x" + l + "=" + num);
+
+			}
+		}
+	}
+
+}

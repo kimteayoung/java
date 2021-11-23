@@ -1,0 +1,35 @@
+package day02_2021_10_05;
+
+public class ex01_logicaloperator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//논리연산자
+		//and, or 연산 각각 수행애서 결과 확인
+		boolean result = true && true ;
+		System.out.println(result);
+		result = true && false;
+		System.out.println(result);
+
+		// not  연산 ( ! )
+		boolean var1 = false;
+		System.out.println(var1);
+		System.out.println(!var1);
+		var1 = !var1;
+		System.out.println(var1);
+		
+		// 영어, 수학 점수가 둘다 90점 이상이면 합격 ( true )
+		int engScore = 95;
+		int mathScore = 97;
+		boolean result1 = false;
+		result1 = engScore >= 90 && mathScore >= 90;
+		System.out.println(result1);
+		
+	
+		
+	
+
+	}
+
+}

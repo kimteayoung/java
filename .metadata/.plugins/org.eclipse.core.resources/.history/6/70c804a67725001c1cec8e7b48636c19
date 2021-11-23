@@ -1,0 +1,21 @@
+package day02_2021_10_05;
+
+public class ex01_logicaloperator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//논리연산자
+		//and, or 연산 각각 수행애서 결과 확인
+		boolean result = true && true ;
+		System.out.println(result);
+		result = true && false;
+		System.out.println(result);
+		result = 4 < 5 && 6 < 3;
+		System.out.println(result);
+
+	
+
+	}
+
+}

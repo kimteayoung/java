@@ -1,0 +1,19 @@
+package java_21_10_07;
+
+public class Ex08_NestedFor {
+
+	public static void main(String[] args) {
+		// 중첩 for문
+System.out.println("바깥문 들어가기 전");
+		for (int i = 1; i <= 2; i++) {
+			for (int j = 1; j <= 3; j++) {
+				System.out.print("i: " + i);
+				System.out.println("\t j: " + j);
+			
+			}
+			System.out.println("바깥문 들어가기 전");
+		}
+		System.out.println("바깥문 들어가기 전");
+	}
+
+}

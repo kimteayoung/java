@@ -1,0 +1,18 @@
+package java_21_10_07;
+
+public class Ex10_ForEx {
+
+	public static void main(String[] args) {
+		// 4x + 5y =60 을 만족하는 x,y 값을 출력하세요.
+		// (x,y는 1보다 크고 10보다 작은 정수)
+		// 답: 5,8 10,4
+		int num = 0;
+		for (int i = 1; i <= 2; i++) {
+			for (int j = 1; j <= 2; i++) {		
+				num = 4*i+5*j;
+				System.out.println(num);
+			}
+		}
+	}
+
+}

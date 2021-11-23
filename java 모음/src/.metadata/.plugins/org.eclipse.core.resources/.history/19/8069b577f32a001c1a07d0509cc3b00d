@@ -1,0 +1,16 @@
+package java_21_10_12;
+
+import java.util.Scanner;
+
+public class Ex01_Ex {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		String num = "";
+		System.out.println("메시지를 입력하세요: ");
+		num = scan.nextLine();
+
+	}
+
+}

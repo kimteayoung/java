@@ -1,0 +1,22 @@
+package day02_2021_10_05_2;
+
+import java.util.Scanner;
+
+public class Ex03_Scaccers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 스캐너 활용
+		// 스캐너 객체를 선언해야 활용 가능
+	    Scanner scan = new Scanner(System.in);
+	    int num1 = 0;
+	    System.out.println(num1);
+	    
+	    // 스캐너를 이용하여 num1에 데이터 입력
+	    num1 = scan.nextInt();
+	    System.out.println(num1);
+	    
+
+	}
+
+}
